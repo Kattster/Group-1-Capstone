@@ -9,6 +9,18 @@
     <title>Drunk Tarot</title>
 
 </head>
+<div class="card-reader" ng-app="tarot" ng-controller="tarotCtrl">
+	<div class="question">
+		<p class="question-fates">What do you wish to ask the Fates?</p>
+		<input class="your-question" type="text">
+		<button id="submit" class="submit">Submit to the Fates</button>
+	</div>
+	<div class="tarot">
+		<tarot-card id="tarot-card"></tarot-card>
+		<button id="refresh" class="submit">Ask Another question</button>
+	</div>
+</div>
+<hr>
 
 <body>
 </body>
