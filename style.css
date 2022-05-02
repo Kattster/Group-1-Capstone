@@ -1,8 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+
 body {
+	font-family: 'Tapestry', cursive;
 	width: 80%;
 	margin: 0 auto;
 	padding: 50px 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(images/spaceshot.jpg);
 }
+.row {
+	display:grid;
+	/* grid-auto-rows: auto; */
+	/* grid-template-columns: repeat(3, 100%); */
+	grid-template-rows: repeat(2, 100%);
+	grid-gap: 1px 1px;
+}
+#teller-1 {
+	display:grid;
+	grid-column: 3 auto;
+
+}
+#teller-2 {
+	display:grid;
+}
+#teller-3 {
+	display:grid;
+}
+#teller-4 {
+	display:grid;
+}
+#teller-5 {
+	display:grid;
+}
+#teller-6 {
+	display:grid;
+}
+
+#showcase{
+	max-width: 100%;
+	height: 110vh;
+}
+
+.display-1{
+	color:yellow;
+	background-color: darkblue;
+	}
 
 h1, h2, h3, h4, h5 {
 	font-size: 68px;
