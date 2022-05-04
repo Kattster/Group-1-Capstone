@@ -11,17 +11,11 @@ body {
 	background-size: cover;
 	background-image: url(images/spaceshot.jpg);
 }
-.row {
-	display:grid;
-	/* grid-auto-rows: auto; */
-	/* grid-template-columns: repeat(3, 100%); */
-	grid-template-rows: repeat(2, 100%);
-	grid-gap: 1px 1px;
-}
+
+
+
 #teller-1 {
 	display:grid;
-	grid-column: 3 auto;
-
 }
 #teller-2 {
 	display:grid;
