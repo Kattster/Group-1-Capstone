@@ -1,0 +1,23 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 25,
+    "editor.wordWrap": "on",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.columnSelection": true,
+    "editor.fastScrollSensitivity": -5,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairsHorizontal": true,
+    "editor.linkedEditing": true,
+    "editor.mouseWheelZoom": true,
+    "editor.parameterHints.cycle": true,
+    "editor.renderLineHighlightOnlyWhenFocus": true,
+    "editor.smoothScrolling": true,
+    "editor.stablePeek": true,
+    "editor.stickyTabStops": true,
+    "editor.tabCompletion": "on",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.find.autoFindInSelection": "always",
+    "editor.find.globalFindClipboard": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+}
